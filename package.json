@@ -1,0 +1,33 @@
+{
+  "name": "react-aws-xray-visualizer",
+  "version": "0.1.6",
+  "description": "d3-dagre visualization for aws-xray tracing data",
+  "license": "MIT",
+  "author": "Eugene Draitsev <ddrrai@gmail.com>",
+  "main": "./lib/index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "build": "rm -rf ./lib/* && tsc --build tsconfig.json",
+    "lint": "tslint src/**/*.ts src/**/*.tsx",
+    "lint:fix": "tslint src/**/*.ts src/**/*.tsx --fix"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.6",
+    "@types/d3": "^5.0.0",
+    "@types/dagre-d3": "^0.4.37",
+    "@types/react": "^16.4.10",
+    "@types/react-dom": "^16.0.7",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "tslint": "^5.11.0",
+    "tslint-config-airbnb": "^5.9.2",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.293.0",
+    "classnames": "^2.2.6",
+    "d3": "^5.5.0",
+    "dagre-d3": "^0.6.1",
+    "styled-components": "^3.4.2"
+  }
+}
