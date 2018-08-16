@@ -1,6 +1,6 @@
 {
   "name": "react-aws-xray-visualizer",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "d3-dagre visualization for aws-xray tracing data",
   "license": "MIT",
   "author": "Eugene Draitsev <ddrrai@gmail.com>",

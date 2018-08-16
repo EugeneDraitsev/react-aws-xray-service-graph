@@ -19,7 +19,7 @@ const SegmentName = styled.div`
 const SegmentType = styled.div`
   font-size: 22px;
   font-weight: 300;
-  margin-bottom: 10px;
+  margin: 10px 0;
 `
 const Info = styled.div`
   font-size: 16px;
