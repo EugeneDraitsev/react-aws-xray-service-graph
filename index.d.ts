@@ -6,4 +6,4 @@ export interface XRayInfoProps {
   className?: string,
 }
 
-export class XRayInfo extends React.PureComponent<XRayInfoProps, any> { }
+export default class  XRayInfo extends React.PureComponent<XRayInfoProps, any> { }

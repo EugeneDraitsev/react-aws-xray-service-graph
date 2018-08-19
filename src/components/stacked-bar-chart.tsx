@@ -1,5 +1,4 @@
 import * as React from 'react'
-import styled from 'styled-components'
 
 export interface IBarChartData {
   label?: string
@@ -12,38 +11,18 @@ interface IStackedBarChart {
   className?: string
 }
 
-interface IBar {
-  flex: number
-  color: string
-}
-
-const Wrapper = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin-bottom: 5px;
-`
-
-const Bar = styled.div`
-  height: 30px;
-  flex: ${(props: IBar) => props.flex};
-  background-color: ${(props: IBar) => props.color};
-  min-width: 4px;
-`
-
 export class StackedBarChart extends React.Component<IStackedBarChart> {
   public render() {
-    const { className, data } = this.props
+    const { data } = this.props
 
     const filteredData = data.filter(x => x.value)
 
     return (
-      <Wrapper className={className}>
+      <div className="react-aws-xray-service-graph-StackedBarChart">
         {filteredData.map(d => (
-          <Bar key={d.label} flex={d.value} color={d.color} />
+          <div className="directional-bar" key={d.label} style={{ flex: d.value, backgroundColor: d.color }} />
         ))}
-      </Wrapper>
+      </div>
     )
   }
 }

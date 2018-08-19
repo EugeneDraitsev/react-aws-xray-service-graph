@@ -1,0 +1,2268 @@
+{
+  "data": [
+    {
+      "ReferenceId": 0,
+      "Name": "/h",
+      "Names": [
+        "/h"
+      ],
+      "Root": null,
+      "AccountId": null,
+      "Type": null,
+      "State": "active",
+      "StartTime": "2018-07-28T13:29:29.000Z",
+      "EndTime": "2018-07-28T13:29:29.000Z",
+      "Edges": [
+        {
+          "ReferenceId": 8,
+          "StartTime": "2018-07-28T13:29:29.000Z",
+          "EndTime": "2018-07-28T13:29:29.000Z",
+          "SummaryStatistics": {
+            "OkCount": 1,
+            "ErrorStatistics": {
+              "ThrottleCount": 0,
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "FaultStatistics": {
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "TotalCount": 1,
+            "TotalResponseTime": 0.143
+          },
+          "ResponseTimeHistogram": [
+            {
+              "Value": 0.143,
+              "Count": 1
+            }
+          ],
+          "Aliases": []
+        }
+      ],
+      "SummaryStatistics": {
+        "OkCount": 1,
+        "ErrorStatistics": {
+          "ThrottleCount": 0,
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "FaultStatistics": {
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "TotalCount": 1,
+        "TotalResponseTime": 0.143
+      },
+      "DurationHistogram": [
+        {
+          "Value": 0.143,
+          "Count": 1
+        }
+      ],
+      "ResponseTimeHistogram": [
+        {
+          "Value": 0.143,
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "ReferenceId": 1,
+      "Name": "/g",
+      "Names": [
+        "/g"
+      ],
+      "Root": null,
+      "AccountId": null,
+      "Type": null,
+      "State": "active",
+      "StartTime": "2018-07-28T13:29:32.000Z",
+      "EndTime": "2018-07-28T13:29:45.000Z",
+      "Edges": [
+        {
+          "ReferenceId": 8,
+          "StartTime": "2018-07-28T13:29:32.000Z",
+          "EndTime": "2018-07-28T13:29:45.000Z",
+          "SummaryStatistics": {
+            "OkCount": 2,
+            "ErrorStatistics": {
+              "ThrottleCount": 0,
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "FaultStatistics": {
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "TotalCount": 2,
+            "TotalResponseTime": 0.811
+          },
+          "ResponseTimeHistogram": [
+            {
+              "Value": 0.333,
+              "Count": 1
+            },
+            {
+              "Value": 0.478,
+              "Count": 1
+            }
+          ],
+          "Aliases": []
+        },
+        {
+          "ReferenceId": 10,
+          "StartTime": "2018-07-28T13:29:32.000Z",
+          "EndTime": "2018-07-28T13:29:45.000Z",
+          "SummaryStatistics": {
+            "OkCount": 2,
+            "ErrorStatistics": {
+              "ThrottleCount": 0,
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "FaultStatistics": {
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "TotalCount": 2,
+            "TotalResponseTime": 1.82
+          },
+          "ResponseTimeHistogram": [
+            {
+              "Value": 1.303,
+              "Count": 1
+            },
+            {
+              "Value": 0.517,
+              "Count": 1
+            }
+          ],
+          "Aliases": []
+        }
+      ],
+      "SummaryStatistics": {
+        "OkCount": 2,
+        "ErrorStatistics": {
+          "ThrottleCount": 0,
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "FaultStatistics": {
+          "OtherCount": 2,
+          "TotalCount": 2
+        },
+        "TotalCount": 4,
+        "TotalResponseTime": 2.631
+      },
+      "DurationHistogram": [
+        {
+          "Value": 0.333,
+          "Count": 1
+        },
+        {
+          "Value": 1.303,
+          "Count": 1
+        },
+        {
+          "Value": 0.517,
+          "Count": 1
+        },
+        {
+          "Value": 0.478,
+          "Count": 1
+        }
+      ],
+      "ResponseTimeHistogram": [
+        {
+          "Value": 0.333,
+          "Count": 1
+        },
+        {
+          "Value": 1.303,
+          "Count": 1
+        },
+        {
+          "Value": 0.517,
+          "Count": 1
+        },
+        {
+          "Value": 0.478,
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "ReferenceId": 2,
+      "Name": "telegram-bot",
+      "Names": [
+        "telegram-bot"
+      ],
+      "Root": null,
+      "AccountId": null,
+      "Type": "client",
+      "State": "unknown",
+      "StartTime": "2018-07-28T08:55:38.000Z",
+      "EndTime": "2018-07-28T13:35:51.000Z",
+      "Edges": [
+        {
+          "ReferenceId": 9,
+          "StartTime": "2018-07-28T08:55:38.000Z",
+          "EndTime": "2018-07-28T13:35:51.000Z",
+          "SummaryStatistics": {
+            "OkCount": 100,
+            "ErrorStatistics": {
+              "ThrottleCount": 0,
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "FaultStatistics": {
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "TotalCount": 100,
+            "TotalResponseTime": 51.817
+          },
+          "ResponseTimeHistogram": [
+            {
+              "Value": 1.248,
+              "Count": 1
+            },
+            {
+              "Value": 0,
+              "Count": 49
+            },
+            {
+              "Value": 1.055,
+              "Count": 1
+            },
+            {
+              "Value": 1.017,
+              "Count": 2
+            },
+            {
+              "Value": 1.03,
+              "Count": 1
+            },
+            {
+              "Value": 1.008,
+              "Count": 1
+            },
+            {
+              "Value": 1.037,
+              "Count": 1
+            },
+            {
+              "Value": 0.001,
+              "Count": 2
+            },
+            {
+              "Value": 1.027,
+              "Count": 1
+            },
+            {
+              "Value": 1.159,
+              "Count": 1
+            },
+            {
+              "Value": 1.035,
+              "Count": 2
+            },
+            {
+              "Value": 1.06,
+              "Count": 1
+            },
+            {
+              "Value": 0.98,
+              "Count": 3
+            },
+            {
+              "Value": 1.016,
+              "Count": 2
+            },
+            {
+              "Value": 0.984,
+              "Count": 2
+            },
+            {
+              "Value": 1.021,
+              "Count": 2
+            },
+            {
+              "Value": 1.115,
+              "Count": 2
+            },
+            {
+              "Value": 1.534,
+              "Count": 1
+            },
+            {
+              "Value": 1.38,
+              "Count": 1
+            },
+            {
+              "Value": 1.006,
+              "Count": 3
+            },
+            {
+              "Value": 0.977,
+              "Count": 1
+            },
+            {
+              "Value": 0.996,
+              "Count": 3
+            },
+            {
+              "Value": 0.989,
+              "Count": 2
+            },
+            {
+              "Value": 1,
+              "Count": 2
+            },
+            {
+              "Value": 1.304,
+              "Count": 1
+            },
+            {
+              "Value": 0.994,
+              "Count": 3
+            },
+            {
+              "Value": 1.001,
+              "Count": 1
+            },
+            {
+              "Value": 0.982,
+              "Count": 2
+            },
+            {
+              "Value": 1.329,
+              "Count": 1
+            },
+            {
+              "Value": 1.112,
+              "Count": 1
+            },
+            {
+              "Value": 1.095,
+              "Count": 2
+            },
+            {
+              "Value": 1.04,
+              "Count": 1
+            },
+            {
+              "Value": 1.079,
+              "Count": 1
+            }
+          ],
+          "Aliases": []
+        }
+      ]
+    },
+    {
+      "ReferenceId": 3,
+      "Name": "tg-send-sticker",
+      "Names": [
+        "tg-send-sticker"
+      ],
+      "Root": null,
+      "AccountId": null,
+      "Type": null,
+      "State": "active",
+      "StartTime": "2018-07-28T13:29:40.000Z",
+      "EndTime": "2018-07-28T13:29:40.000Z",
+      "Edges": [],
+      "SummaryStatistics": {
+        "OkCount": 1,
+        "ErrorStatistics": {
+          "ThrottleCount": 0,
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "FaultStatistics": {
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "TotalCount": 1,
+        "TotalResponseTime": 0.2
+      },
+      "DurationHistogram": [
+        {
+          "Value": 0.2,
+          "Count": 1
+        }
+      ],
+      "ResponseTimeHistogram": [
+        {
+          "Value": 0.2,
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "ReferenceId": 4,
+      "Name": "no-command",
+      "Names": [
+        "no-command"
+      ],
+      "Root": null,
+      "AccountId": null,
+      "Type": null,
+      "State": "active",
+      "StartTime": "2018-07-28T08:55:38.000Z",
+      "EndTime": "2018-07-28T13:34:35.000Z",
+      "Edges": [],
+      "SummaryStatistics": {
+        "OkCount": 42,
+        "ErrorStatistics": {
+          "ThrottleCount": 0,
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "FaultStatistics": {
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "TotalCount": 42,
+        "TotalResponseTime": 0.36
+      },
+      "DurationHistogram": [
+        {
+          "Value": 0.043,
+          "Count": 1
+        },
+        {
+          "Value": 0.002,
+          "Count": 1
+        },
+        {
+          "Value": 0.001,
+          "Count": 26
+        },
+        {
+          "Value": 0,
+          "Count": 3
+        },
+        {
+          "Value": 0.009,
+          "Count": 1
+        },
+        {
+          "Value": 0.042,
+          "Count": 1
+        },
+        {
+          "Value": 0.013,
+          "Count": 1
+        },
+        {
+          "Value": 0.019,
+          "Count": 2
+        },
+        {
+          "Value": 0.014,
+          "Count": 2
+        },
+        {
+          "Value": 0.007,
+          "Count": 1
+        },
+        {
+          "Value": 0.091,
+          "Count": 1
+        },
+        {
+          "Value": 0.006,
+          "Count": 1
+        },
+        {
+          "Value": 0.055,
+          "Count": 1
+        }
+      ],
+      "ResponseTimeHistogram": [
+        {
+          "Value": 0.043,
+          "Count": 1
+        },
+        {
+          "Value": 0.002,
+          "Count": 1
+        },
+        {
+          "Value": 0.001,
+          "Count": 26
+        },
+        {
+          "Value": 0,
+          "Count": 3
+        },
+        {
+          "Value": 0.009,
+          "Count": 1
+        },
+        {
+          "Value": 0.042,
+          "Count": 1
+        },
+        {
+          "Value": 0.013,
+          "Count": 1
+        },
+        {
+          "Value": 0.019,
+          "Count": 2
+        },
+        {
+          "Value": 0.014,
+          "Count": 2
+        },
+        {
+          "Value": 0.007,
+          "Count": 1
+        },
+        {
+          "Value": 0.091,
+          "Count": 1
+        },
+        {
+          "Value": 0.006,
+          "Count": 1
+        },
+        {
+          "Value": 0.055,
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "ReferenceId": 5,
+      "Name": "/8",
+      "Names": [
+        "/8"
+      ],
+      "Root": null,
+      "AccountId": null,
+      "Type": null,
+      "State": "active",
+      "StartTime": "2018-07-28T13:29:40.000Z",
+      "EndTime": "2018-07-28T13:29:40.000Z",
+      "Edges": [
+        {
+          "ReferenceId": 3,
+          "StartTime": "2018-07-28T13:29:40.000Z",
+          "EndTime": "2018-07-28T13:29:40.000Z",
+          "SummaryStatistics": {
+            "OkCount": 1,
+            "ErrorStatistics": {
+              "ThrottleCount": 0,
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "FaultStatistics": {
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "TotalCount": 1,
+            "TotalResponseTime": 0.201
+          },
+          "ResponseTimeHistogram": [
+            {
+              "Value": 0.201,
+              "Count": 1
+            }
+          ],
+          "Aliases": []
+        }
+      ],
+      "SummaryStatistics": {
+        "OkCount": 1,
+        "ErrorStatistics": {
+          "ThrottleCount": 0,
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "FaultStatistics": {
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "TotalCount": 1,
+        "TotalResponseTime": 0.201
+      },
+      "DurationHistogram": [
+        {
+          "Value": 0.201,
+          "Count": 1
+        }
+      ],
+      "ResponseTimeHistogram": [
+        {
+          "Value": 0.201,
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "ReferenceId": 6,
+      "Name": "/z",
+      "Names": [
+        "/z"
+      ],
+      "Root": null,
+      "AccountId": null,
+      "Type": null,
+      "State": "active",
+      "StartTime": "2018-07-28T13:29:27.000Z",
+      "EndTime": "2018-07-28T13:29:27.000Z",
+      "Edges": [
+        {
+          "ReferenceId": 8,
+          "StartTime": "2018-07-28T13:29:27.000Z",
+          "EndTime": "2018-07-28T13:29:27.000Z",
+          "SummaryStatistics": {
+            "OkCount": 1,
+            "ErrorStatistics": {
+              "ThrottleCount": 0,
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "FaultStatistics": {
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "TotalCount": 1,
+            "TotalResponseTime": 1.533
+          },
+          "ResponseTimeHistogram": [
+            {
+              "Value": 1.533,
+              "Count": 1
+            }
+          ],
+          "Aliases": []
+        }
+      ],
+      "SummaryStatistics": {
+        "OkCount": 1,
+        "ErrorStatistics": {
+          "ThrottleCount": 0,
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "FaultStatistics": {
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "TotalCount": 1,
+        "TotalResponseTime": 1.533
+      },
+      "DurationHistogram": [
+        {
+          "Value": 1.533,
+          "Count": 1
+        }
+      ],
+      "ResponseTimeHistogram": [
+        {
+          "Value": 1.533,
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "ReferenceId": 7,
+      "Name": "process-query",
+      "Names": [
+        "process-query"
+      ],
+      "Root": null,
+      "AccountId": null,
+      "Type": null,
+      "State": "active",
+      "StartTime": "2018-07-28T08:55:38.000Z",
+      "EndTime": "2018-07-28T13:34:35.000Z",
+      "Edges": [
+        {
+          "ReferenceId": 0,
+          "StartTime": "2018-07-28T08:55:38.000Z",
+          "EndTime": "2018-07-28T13:34:35.000Z",
+          "SummaryStatistics": {
+            "OkCount": 1,
+            "ErrorStatistics": {
+              "ThrottleCount": 0,
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "FaultStatistics": {
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "TotalCount": 1,
+            "TotalResponseTime": 0.143
+          },
+          "ResponseTimeHistogram": [
+            {
+              "Value": 0.143,
+              "Count": 1
+            }
+          ],
+          "Aliases": []
+        },
+        {
+          "ReferenceId": 5,
+          "StartTime": "2018-07-28T08:55:38.000Z",
+          "EndTime": "2018-07-28T13:34:35.000Z",
+          "SummaryStatistics": {
+            "OkCount": 1,
+            "ErrorStatistics": {
+              "ThrottleCount": 0,
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "FaultStatistics": {
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "TotalCount": 1,
+            "TotalResponseTime": 0.201
+          },
+          "ResponseTimeHistogram": [
+            {
+              "Value": 0.201,
+              "Count": 1
+            }
+          ],
+          "Aliases": []
+        },
+        {
+          "ReferenceId": 6,
+          "StartTime": "2018-07-28T08:55:38.000Z",
+          "EndTime": "2018-07-28T13:34:35.000Z",
+          "SummaryStatistics": {
+            "OkCount": 1,
+            "ErrorStatistics": {
+              "ThrottleCount": 0,
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "FaultStatistics": {
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "TotalCount": 1,
+            "TotalResponseTime": 1.533
+          },
+          "ResponseTimeHistogram": [
+            {
+              "Value": 1.533,
+              "Count": 1
+            }
+          ],
+          "Aliases": []
+        },
+        {
+          "ReferenceId": 1,
+          "StartTime": "2018-07-28T08:55:38.000Z",
+          "EndTime": "2018-07-28T13:34:35.000Z",
+          "SummaryStatistics": {
+            "OkCount": 2,
+            "ErrorStatistics": {
+              "ThrottleCount": 0,
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "FaultStatistics": {
+              "OtherCount": 2,
+              "TotalCount": 2
+            },
+            "TotalCount": 4,
+            "TotalResponseTime": 2.631
+          },
+          "ResponseTimeHistogram": [
+            {
+              "Value": 0.333,
+              "Count": 1
+            },
+            {
+              "Value": 1.303,
+              "Count": 1
+            },
+            {
+              "Value": 0.517,
+              "Count": 1
+            },
+            {
+              "Value": 0.478,
+              "Count": 1
+            }
+          ],
+          "Aliases": []
+        },
+        {
+          "ReferenceId": 12,
+          "StartTime": "2018-07-28T08:55:38.000Z",
+          "EndTime": "2018-07-28T13:34:35.000Z",
+          "SummaryStatistics": {
+            "OkCount": 1,
+            "ErrorStatistics": {
+              "ThrottleCount": 0,
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "FaultStatistics": {
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "TotalCount": 1,
+            "TotalResponseTime": 0.5
+          },
+          "ResponseTimeHistogram": [
+            {
+              "Value": 0.5,
+              "Count": 1
+            }
+          ],
+          "Aliases": []
+        },
+        {
+          "ReferenceId": 4,
+          "StartTime": "2018-07-28T08:55:38.000Z",
+          "EndTime": "2018-07-28T13:34:35.000Z",
+          "SummaryStatistics": {
+            "OkCount": 42,
+            "ErrorStatistics": {
+              "ThrottleCount": 0,
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "FaultStatistics": {
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "TotalCount": 42,
+            "TotalResponseTime": 0.479
+          },
+          "ResponseTimeHistogram": [
+            {
+              "Value": 0.02,
+              "Count": 1
+            },
+            {
+              "Value": 0.008,
+              "Count": 1
+            },
+            {
+              "Value": 0.002,
+              "Count": 3
+            },
+            {
+              "Value": 0.001,
+              "Count": 4
+            },
+            {
+              "Value": 0.094,
+              "Count": 1
+            },
+            {
+              "Value": 0.015,
+              "Count": 1
+            },
+            {
+              "Value": 0.059,
+              "Count": 1
+            },
+            {
+              "Value": 0.013,
+              "Count": 1
+            },
+            {
+              "Value": 0.046,
+              "Count": 1
+            },
+            {
+              "Value": 0.014,
+              "Count": 1
+            },
+            {
+              "Value": 0.003,
+              "Count": 2
+            },
+            {
+              "Value": 0.061,
+              "Count": 1
+            }
+          ],
+          "Aliases": []
+        }
+      ],
+      "SummaryStatistics": {
+        "OkCount": 50,
+        "ErrorStatistics": {
+          "ThrottleCount": 0,
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "FaultStatistics": {
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "TotalCount": 50,
+        "TotalResponseTime": 5.487
+      },
+      "DurationHistogram": [
+        {
+          "Value": 0.5,
+          "Count": 2
+        },
+        {
+          "Value": 0.02,
+          "Count": 1
+        },
+        {
+          "Value": 0.008,
+          "Count": 2
+        },
+        {
+          "Value": 0.002,
+          "Count": 4
+        },
+        {
+          "Value": 0,
+          "Count": 3
+        },
+        {
+          "Value": 0.009,
+          "Count": 2
+        },
+        {
+          "Value": 0.094,
+          "Count": 2
+        },
+        {
+          "Value": 0.015,
+          "Count": 1
+        },
+        {
+          "Value": 1.533,
+          "Count": 1
+        },
+        {
+          "Value": 1.303,
+          "Count": 1
+        },
+        {
+          "Value": 0.013,
+          "Count": 1
+        },
+        {
+          "Value": 0.201,
+          "Count": 2
+        },
+        {
+          "Value": 0.517,
+          "Count": 2
+        },
+        {
+          "Value": 0.478,
+          "Count": 2
+        },
+        {
+          "Value": 0.046,
+          "Count": 2
+        },
+        {
+          "Value": 0.019,
+          "Count": 2
+        },
+        {
+          "Value": 0.003,
+          "Count": 4
+        },
+        {
+          "Value": 0.001,
+          "Count": 32
+        },
+        {
+          "Value": 0.333,
+          "Count": 1
+        },
+        {
+          "Value": 0.059,
+          "Count": 2
+        },
+        {
+          "Value": 0.014,
+          "Count": 6
+        },
+        {
+          "Value": 0.006,
+          "Count": 2
+        },
+        {
+          "Value": 0.143,
+          "Count": 2
+        },
+        {
+          "Value": 0.061,
+          "Count": 1
+        },
+        {
+          "Value": 0.055,
+          "Count": 2
+        }
+      ],
+      "ResponseTimeHistogram": [
+        {
+          "Value": 0.5,
+          "Count": 2
+        },
+        {
+          "Value": 0.02,
+          "Count": 1
+        },
+        {
+          "Value": 0.008,
+          "Count": 2
+        },
+        {
+          "Value": 0.002,
+          "Count": 4
+        },
+        {
+          "Value": 0,
+          "Count": 3
+        },
+        {
+          "Value": 0.009,
+          "Count": 2
+        },
+        {
+          "Value": 0.094,
+          "Count": 2
+        },
+        {
+          "Value": 0.015,
+          "Count": 1
+        },
+        {
+          "Value": 1.533,
+          "Count": 1
+        },
+        {
+          "Value": 1.303,
+          "Count": 1
+        },
+        {
+          "Value": 0.013,
+          "Count": 1
+        },
+        {
+          "Value": 0.201,
+          "Count": 2
+        },
+        {
+          "Value": 0.517,
+          "Count": 2
+        },
+        {
+          "Value": 0.478,
+          "Count": 2
+        },
+        {
+          "Value": 0.046,
+          "Count": 2
+        },
+        {
+          "Value": 0.019,
+          "Count": 2
+        },
+        {
+          "Value": 0.003,
+          "Count": 4
+        },
+        {
+          "Value": 0.001,
+          "Count": 32
+        },
+        {
+          "Value": 0.333,
+          "Count": 1
+        },
+        {
+          "Value": 0.059,
+          "Count": 2
+        },
+        {
+          "Value": 0.014,
+          "Count": 6
+        },
+        {
+          "Value": 0.006,
+          "Count": 2
+        },
+        {
+          "Value": 0.143,
+          "Count": 2
+        },
+        {
+          "Value": 0.061,
+          "Count": 1
+        },
+        {
+          "Value": 0.055,
+          "Count": 2
+        }
+      ]
+    },
+    {
+      "ReferenceId": 8,
+      "Name": "tg-send-message",
+      "Names": [
+        "tg-send-message"
+      ],
+      "Root": null,
+      "AccountId": null,
+      "Type": null,
+      "State": "active",
+      "StartTime": "2018-07-28T13:29:27.000Z",
+      "EndTime": "2018-07-28T13:33:55.000Z",
+      "Edges": [],
+      "SummaryStatistics": {
+        "OkCount": 5,
+        "ErrorStatistics": {
+          "ThrottleCount": 0,
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "FaultStatistics": {
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "TotalCount": 5,
+        "TotalResponseTime": 1.691
+      },
+      "DurationHistogram": [
+        {
+          "Value": 0.953,
+          "Count": 1
+        },
+        {
+          "Value": 0.164,
+          "Count": 2
+        },
+        {
+          "Value": 0.267,
+          "Count": 1
+        },
+        {
+          "Value": 0.143,
+          "Count": 1
+        }
+      ],
+      "ResponseTimeHistogram": [
+        {
+          "Value": 0.953,
+          "Count": 1
+        },
+        {
+          "Value": 0.164,
+          "Count": 2
+        },
+        {
+          "Value": 0.267,
+          "Count": 1
+        },
+        {
+          "Value": 0.143,
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "ReferenceId": 9,
+      "Name": "telegram-bot",
+      "Names": [
+        "telegram-bot"
+      ],
+      "Root": true,
+      "AccountId": null,
+      "Type": null,
+      "State": "active",
+      "StartTime": "2018-07-28T08:55:38.000Z",
+      "EndTime": "2018-07-28T13:35:51.000Z",
+      "Edges": [
+        {
+          "ReferenceId": 7,
+          "StartTime": "2018-07-28T08:55:38.000Z",
+          "EndTime": "2018-07-28T13:35:51.000Z",
+          "SummaryStatistics": {
+            "OkCount": 49,
+            "ErrorStatistics": {
+              "ThrottleCount": 0,
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "FaultStatistics": {
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "TotalCount": 49,
+            "TotalResponseTime": 51.815
+          },
+          "ResponseTimeHistogram": [
+            {
+              "Value": 1.248,
+              "Count": 1
+            },
+            {
+              "Value": 1.055,
+              "Count": 1
+            },
+            {
+              "Value": 0.995,
+              "Count": 1
+            },
+            {
+              "Value": 1.017,
+              "Count": 2
+            },
+            {
+              "Value": 1.03,
+              "Count": 1
+            },
+            {
+              "Value": 1.007,
+              "Count": 1
+            },
+            {
+              "Value": 1.008,
+              "Count": 1
+            },
+            {
+              "Value": 1.037,
+              "Count": 1
+            },
+            {
+              "Value": 0.998,
+              "Count": 1
+            },
+            {
+              "Value": 1.027,
+              "Count": 1
+            },
+            {
+              "Value": 1.159,
+              "Count": 1
+            },
+            {
+              "Value": 1.035,
+              "Count": 2
+            },
+            {
+              "Value": 1.02,
+              "Count": 1
+            },
+            {
+              "Value": 1.06,
+              "Count": 1
+            },
+            {
+              "Value": 0.98,
+              "Count": 3
+            },
+            {
+              "Value": 1.016,
+              "Count": 2
+            },
+            {
+              "Value": 0.984,
+              "Count": 2
+            },
+            {
+              "Value": 1.021,
+              "Count": 1
+            },
+            {
+              "Value": 1.115,
+              "Count": 2
+            },
+            {
+              "Value": 1.534,
+              "Count": 1
+            },
+            {
+              "Value": 1.38,
+              "Count": 1
+            },
+            {
+              "Value": 1.006,
+              "Count": 2
+            },
+            {
+              "Value": 0.977,
+              "Count": 1
+            },
+            {
+              "Value": 0.996,
+              "Count": 2
+            },
+            {
+              "Value": 0.989,
+              "Count": 2
+            },
+            {
+              "Value": 1.304,
+              "Count": 1
+            },
+            {
+              "Value": 0.994,
+              "Count": 3
+            },
+            {
+              "Value": 1.001,
+              "Count": 1
+            },
+            {
+              "Value": 0.982,
+              "Count": 2
+            },
+            {
+              "Value": 1.329,
+              "Count": 1
+            },
+            {
+              "Value": 1.112,
+              "Count": 1
+            },
+            {
+              "Value": 1.095,
+              "Count": 2
+            },
+            {
+              "Value": 1.002,
+              "Count": 1
+            },
+            {
+              "Value": 1.04,
+              "Count": 1
+            },
+            {
+              "Value": 1.079,
+              "Count": 1
+            }
+          ],
+          "Aliases": []
+        },
+        {
+          "ReferenceId": 11,
+          "StartTime": "2018-07-28T08:55:38.000Z",
+          "EndTime": "2018-07-28T13:35:51.000Z",
+          "SummaryStatistics": {
+            "OkCount": 49,
+            "ErrorStatistics": {
+              "ThrottleCount": 0,
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "FaultStatistics": {
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "TotalCount": 49,
+            "TotalResponseTime": 51.815
+          },
+          "ResponseTimeHistogram": [
+            {
+              "Value": 1.248,
+              "Count": 1
+            },
+            {
+              "Value": 1.055,
+              "Count": 1
+            },
+            {
+              "Value": 0.995,
+              "Count": 1
+            },
+            {
+              "Value": 1.017,
+              "Count": 1
+            },
+            {
+              "Value": 1.03,
+              "Count": 1
+            },
+            {
+              "Value": 1.007,
+              "Count": 1
+            },
+            {
+              "Value": 1.008,
+              "Count": 1
+            },
+            {
+              "Value": 1.037,
+              "Count": 1
+            },
+            {
+              "Value": 0.998,
+              "Count": 1
+            },
+            {
+              "Value": 1.027,
+              "Count": 1
+            },
+            {
+              "Value": 1.159,
+              "Count": 1
+            },
+            {
+              "Value": 1.035,
+              "Count": 2
+            },
+            {
+              "Value": 1.02,
+              "Count": 1
+            },
+            {
+              "Value": 1.06,
+              "Count": 1
+            },
+            {
+              "Value": 0.98,
+              "Count": 3
+            },
+            {
+              "Value": 1.016,
+              "Count": 2
+            },
+            {
+              "Value": 0.984,
+              "Count": 1
+            },
+            {
+              "Value": 1.021,
+              "Count": 1
+            },
+            {
+              "Value": 1.115,
+              "Count": 2
+            },
+            {
+              "Value": 1.534,
+              "Count": 1
+            },
+            {
+              "Value": 1.38,
+              "Count": 1
+            },
+            {
+              "Value": 1.006,
+              "Count": 1
+            },
+            {
+              "Value": 0.977,
+              "Count": 1
+            },
+            {
+              "Value": 0.996,
+              "Count": 1
+            },
+            {
+              "Value": 0.989,
+              "Count": 2
+            },
+            {
+              "Value": 1.304,
+              "Count": 1
+            },
+            {
+              "Value": 0.994,
+              "Count": 3
+            },
+            {
+              "Value": 0.982,
+              "Count": 1
+            },
+            {
+              "Value": 1.329,
+              "Count": 1
+            },
+            {
+              "Value": 1.112,
+              "Count": 1
+            },
+            {
+              "Value": 1.095,
+              "Count": 1
+            },
+            {
+              "Value": 1.002,
+              "Count": 1
+            },
+            {
+              "Value": 1.04,
+              "Count": 1
+            },
+            {
+              "Value": 1.079,
+              "Count": 1
+            }
+          ],
+          "Aliases": []
+        }
+      ],
+      "SummaryStatistics": {
+        "OkCount": 100,
+        "ErrorStatistics": {
+          "ThrottleCount": 0,
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "FaultStatistics": {
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "TotalCount": 100,
+        "TotalResponseTime": 51.817
+      },
+      "DurationHistogram": [
+        {
+          "Value": 1.248,
+          "Count": 1
+        },
+        {
+          "Value": 0,
+          "Count": 49
+        },
+        {
+          "Value": 1.055,
+          "Count": 1
+        },
+        {
+          "Value": 1.017,
+          "Count": 2
+        },
+        {
+          "Value": 1.03,
+          "Count": 1
+        },
+        {
+          "Value": 1.008,
+          "Count": 1
+        },
+        {
+          "Value": 1.037,
+          "Count": 1
+        },
+        {
+          "Value": 0.001,
+          "Count": 2
+        },
+        {
+          "Value": 1.027,
+          "Count": 1
+        },
+        {
+          "Value": 1.159,
+          "Count": 1
+        },
+        {
+          "Value": 1.035,
+          "Count": 2
+        },
+        {
+          "Value": 1.06,
+          "Count": 1
+        },
+        {
+          "Value": 0.98,
+          "Count": 3
+        },
+        {
+          "Value": 1.016,
+          "Count": 2
+        },
+        {
+          "Value": 0.984,
+          "Count": 2
+        },
+        {
+          "Value": 1.021,
+          "Count": 2
+        },
+        {
+          "Value": 1.115,
+          "Count": 2
+        },
+        {
+          "Value": 1.534,
+          "Count": 1
+        },
+        {
+          "Value": 1.38,
+          "Count": 1
+        },
+        {
+          "Value": 1.006,
+          "Count": 3
+        },
+        {
+          "Value": 0.977,
+          "Count": 1
+        },
+        {
+          "Value": 0.996,
+          "Count": 3
+        },
+        {
+          "Value": 0.989,
+          "Count": 2
+        },
+        {
+          "Value": 1,
+          "Count": 2
+        },
+        {
+          "Value": 1.304,
+          "Count": 1
+        },
+        {
+          "Value": 0.994,
+          "Count": 3
+        },
+        {
+          "Value": 1.001,
+          "Count": 1
+        },
+        {
+          "Value": 0.982,
+          "Count": 2
+        },
+        {
+          "Value": 1.329,
+          "Count": 1
+        },
+        {
+          "Value": 1.112,
+          "Count": 1
+        },
+        {
+          "Value": 1.095,
+          "Count": 2
+        },
+        {
+          "Value": 1.04,
+          "Count": 1
+        },
+        {
+          "Value": 1.079,
+          "Count": 1
+        }
+      ],
+      "ResponseTimeHistogram": [
+        {
+          "Value": 1.248,
+          "Count": 1
+        },
+        {
+          "Value": 0,
+          "Count": 49
+        },
+        {
+          "Value": 1.055,
+          "Count": 1
+        },
+        {
+          "Value": 1.017,
+          "Count": 2
+        },
+        {
+          "Value": 1.03,
+          "Count": 1
+        },
+        {
+          "Value": 1.008,
+          "Count": 1
+        },
+        {
+          "Value": 1.037,
+          "Count": 1
+        },
+        {
+          "Value": 0.001,
+          "Count": 2
+        },
+        {
+          "Value": 1.027,
+          "Count": 1
+        },
+        {
+          "Value": 1.159,
+          "Count": 1
+        },
+        {
+          "Value": 1.035,
+          "Count": 2
+        },
+        {
+          "Value": 1.06,
+          "Count": 1
+        },
+        {
+          "Value": 0.98,
+          "Count": 3
+        },
+        {
+          "Value": 1.016,
+          "Count": 2
+        },
+        {
+          "Value": 0.984,
+          "Count": 2
+        },
+        {
+          "Value": 1.021,
+          "Count": 2
+        },
+        {
+          "Value": 1.115,
+          "Count": 2
+        },
+        {
+          "Value": 1.534,
+          "Count": 1
+        },
+        {
+          "Value": 1.38,
+          "Count": 1
+        },
+        {
+          "Value": 1.006,
+          "Count": 3
+        },
+        {
+          "Value": 0.977,
+          "Count": 1
+        },
+        {
+          "Value": 0.996,
+          "Count": 3
+        },
+        {
+          "Value": 0.989,
+          "Count": 2
+        },
+        {
+          "Value": 1,
+          "Count": 2
+        },
+        {
+          "Value": 1.304,
+          "Count": 1
+        },
+        {
+          "Value": 0.994,
+          "Count": 3
+        },
+        {
+          "Value": 1.001,
+          "Count": 1
+        },
+        {
+          "Value": 0.982,
+          "Count": 2
+        },
+        {
+          "Value": 1.329,
+          "Count": 1
+        },
+        {
+          "Value": 1.112,
+          "Count": 1
+        },
+        {
+          "Value": 1.095,
+          "Count": 2
+        },
+        {
+          "Value": 1.04,
+          "Count": 1
+        },
+        {
+          "Value": 1.079,
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "ReferenceId": 10,
+      "Name": "tg-send-photo",
+      "Names": [
+        "tg-send-photo"
+      ],
+      "Root": null,
+      "AccountId": null,
+      "Type": null,
+      "State": "active",
+      "StartTime": "2018-07-28T13:29:32.000Z",
+      "EndTime": "2018-07-28T13:29:45.000Z",
+      "Edges": [],
+      "SummaryStatistics": {
+        "OkCount": 2,
+        "ErrorStatistics": {
+          "ThrottleCount": 0,
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "FaultStatistics": {
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "TotalCount": 2,
+        "TotalResponseTime": 0.504
+      },
+      "DurationHistogram": [
+        {
+          "Value": 0.313,
+          "Count": 1
+        },
+        {
+          "Value": 0.191,
+          "Count": 1
+        }
+      ],
+      "ResponseTimeHistogram": [
+        {
+          "Value": 0.313,
+          "Count": 1
+        },
+        {
+          "Value": 0.191,
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "ReferenceId": 11,
+      "Name": "mongo-record",
+      "Names": [
+        "mongo-record"
+      ],
+      "Root": null,
+      "AccountId": null,
+      "Type": null,
+      "State": "active",
+      "StartTime": "2018-07-28T08:55:38.000Z",
+      "EndTime": "2018-07-28T13:34:35.000Z",
+      "Edges": [],
+      "SummaryStatistics": {
+        "OkCount": 50,
+        "ErrorStatistics": {
+          "ThrottleCount": 0,
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "FaultStatistics": {
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "TotalCount": 50,
+        "TotalResponseTime": 51.896
+      },
+      "DurationHistogram": [
+        {
+          "Value": 0.995,
+          "Count": 1
+        },
+        {
+          "Value": 1.017,
+          "Count": 1
+        },
+        {
+          "Value": 1.03,
+          "Count": 2
+        },
+        {
+          "Value": 1.007,
+          "Count": 2
+        },
+        {
+          "Value": 1.327,
+          "Count": 2
+        },
+        {
+          "Value": 0.979,
+          "Count": 2
+        },
+        {
+          "Value": 1.036,
+          "Count": 2
+        },
+        {
+          "Value": 1.11,
+          "Count": 1
+        },
+        {
+          "Value": 1.114,
+          "Count": 2
+        },
+        {
+          "Value": 1.025,
+          "Count": 2
+        },
+        {
+          "Value": 1.034,
+          "Count": 2
+        },
+        {
+          "Value": 1.02,
+          "Count": 2
+        },
+        {
+          "Value": 0.988,
+          "Count": 3
+        },
+        {
+          "Value": 0.98,
+          "Count": 2
+        },
+        {
+          "Value": 1.016,
+          "Count": 1
+        },
+        {
+          "Value": 0.984,
+          "Count": 1
+        },
+        {
+          "Value": 0.975,
+          "Count": 3
+        },
+        {
+          "Value": 1.006,
+          "Count": 3
+        },
+        {
+          "Value": 1.245,
+          "Count": 2
+        },
+        {
+          "Value": 1.028,
+          "Count": 2
+        },
+        {
+          "Value": 0.996,
+          "Count": 3
+        },
+        {
+          "Value": 0.991,
+          "Count": 4
+        },
+        {
+          "Value": 1.065,
+          "Count": 1
+        },
+        {
+          "Value": 1.14,
+          "Count": 2
+        },
+        {
+          "Value": 1.091,
+          "Count": 2
+        },
+        {
+          "Value": 1.015,
+          "Count": 3
+        },
+        {
+          "Value": 1.004,
+          "Count": 2
+        },
+        {
+          "Value": 1.078,
+          "Count": 2
+        },
+        {
+          "Value": 1.376,
+          "Count": 1
+        },
+        {
+          "Value": 0.994,
+          "Count": 2
+        },
+        {
+          "Value": 0.978,
+          "Count": 2
+        },
+        {
+          "Value": 1.059,
+          "Count": 2
+        },
+        {
+          "Value": 0.992,
+          "Count": 2
+        },
+        {
+          "Value": 1.001,
+          "Count": 3
+        },
+        {
+          "Value": 0.983,
+          "Count": 1
+        },
+        {
+          "Value": 1.054,
+          "Count": 2
+        },
+        {
+          "Value": 0.982,
+          "Count": 2
+        },
+        {
+          "Value": 0.993,
+          "Count": 4
+        },
+        {
+          "Value": 1.095,
+          "Count": 3
+        },
+        {
+          "Value": 1.039,
+          "Count": 1
+        }
+      ],
+      "ResponseTimeHistogram": [
+        {
+          "Value": 0.995,
+          "Count": 1
+        },
+        {
+          "Value": 1.017,
+          "Count": 1
+        },
+        {
+          "Value": 1.03,
+          "Count": 2
+        },
+        {
+          "Value": 1.007,
+          "Count": 2
+        },
+        {
+          "Value": 1.327,
+          "Count": 2
+        },
+        {
+          "Value": 0.979,
+          "Count": 2
+        },
+        {
+          "Value": 1.036,
+          "Count": 2
+        },
+        {
+          "Value": 1.11,
+          "Count": 1
+        },
+        {
+          "Value": 1.114,
+          "Count": 2
+        },
+        {
+          "Value": 1.025,
+          "Count": 2
+        },
+        {
+          "Value": 1.034,
+          "Count": 2
+        },
+        {
+          "Value": 1.02,
+          "Count": 2
+        },
+        {
+          "Value": 0.988,
+          "Count": 3
+        },
+        {
+          "Value": 0.98,
+          "Count": 2
+        },
+        {
+          "Value": 1.016,
+          "Count": 1
+        },
+        {
+          "Value": 0.984,
+          "Count": 1
+        },
+        {
+          "Value": 0.975,
+          "Count": 3
+        },
+        {
+          "Value": 1.006,
+          "Count": 3
+        },
+        {
+          "Value": 1.245,
+          "Count": 2
+        },
+        {
+          "Value": 1.028,
+          "Count": 2
+        },
+        {
+          "Value": 0.996,
+          "Count": 3
+        },
+        {
+          "Value": 0.991,
+          "Count": 4
+        },
+        {
+          "Value": 1.065,
+          "Count": 1
+        },
+        {
+          "Value": 1.14,
+          "Count": 2
+        },
+        {
+          "Value": 1.091,
+          "Count": 2
+        },
+        {
+          "Value": 1.015,
+          "Count": 3
+        },
+        {
+          "Value": 1.004,
+          "Count": 2
+        },
+        {
+          "Value": 1.078,
+          "Count": 2
+        },
+        {
+          "Value": 1.376,
+          "Count": 1
+        },
+        {
+          "Value": 0.994,
+          "Count": 2
+        },
+        {
+          "Value": 0.978,
+          "Count": 2
+        },
+        {
+          "Value": 1.059,
+          "Count": 2
+        },
+        {
+          "Value": 0.992,
+          "Count": 2
+        },
+        {
+          "Value": 1.001,
+          "Count": 3
+        },
+        {
+          "Value": 0.983,
+          "Count": 1
+        },
+        {
+          "Value": 1.054,
+          "Count": 2
+        },
+        {
+          "Value": 0.982,
+          "Count": 2
+        },
+        {
+          "Value": 0.993,
+          "Count": 4
+        },
+        {
+          "Value": 1.095,
+          "Count": 3
+        },
+        {
+          "Value": 1.039,
+          "Count": 1
+        }
+      ]
+    },
+    {
+      "ReferenceId": 12,
+      "Name": "/v",
+      "Names": [
+        "/v"
+      ],
+      "Root": null,
+      "AccountId": null,
+      "Type": null,
+      "State": "active",
+      "StartTime": "2018-07-28T13:33:55.000Z",
+      "EndTime": "2018-07-28T13:33:55.000Z",
+      "Edges": [
+        {
+          "ReferenceId": 8,
+          "StartTime": "2018-07-28T13:33:55.000Z",
+          "EndTime": "2018-07-28T13:33:55.000Z",
+          "SummaryStatistics": {
+            "OkCount": 1,
+            "ErrorStatistics": {
+              "ThrottleCount": 0,
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "FaultStatistics": {
+              "OtherCount": 0,
+              "TotalCount": 0
+            },
+            "TotalCount": 1,
+            "TotalResponseTime": 0.5
+          },
+          "ResponseTimeHistogram": [
+            {
+              "Value": 0.5,
+              "Count": 1
+            }
+          ],
+          "Aliases": []
+        }
+      ],
+      "SummaryStatistics": {
+        "OkCount": 1,
+        "ErrorStatistics": {
+          "ThrottleCount": 0,
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "FaultStatistics": {
+          "OtherCount": 0,
+          "TotalCount": 0
+        },
+        "TotalCount": 1,
+        "TotalResponseTime": 0.5
+      },
+      "DurationHistogram": [
+        {
+          "Value": 0.5,
+          "Count": 1
+        }
+      ],
+      "ResponseTimeHistogram": [
+        {
+          "Value": 0.5,
+          "Count": 1
+        }
+      ]
+    }
+  ]
+}

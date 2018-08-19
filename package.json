@@ -1,13 +1,22 @@
 {
-  "name": "react-aws-xray-visualizer",
-  "version": "0.1.7",
-  "description": "d3-dagre visualization for aws-xray tracing data",
+  "name": "react-aws-service-graph",
+  "version": "0.0.1",
+  "description": "d3-dagre visualization for aws-xray service graph",
   "license": "MIT",
-  "author": "Eugene Draitsev <ddrrai@gmail.com>",
-  "main": "./lib/index.js",
+  "authors": [
+    "Eugene Draitsev <ddrrai@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EugeneDraitsev/react-aws-xray-service-graph"
+  },
+  "bugs": "https://github.com/EugeneDraitsev/react-aws-xray-service-graph/issues",
+  "main": "./dist/mian.js",
   "types": "./index.d.ts",
   "scripts": {
-    "build": "rm -rf ./lib/* && tsc --build tsconfig.json",
+    "start": "webpack-dev-server --mode development --hot --port 3000",
+    "build": "rimraf ./lib/* && tsc --build tsconfig.build.json",
+    "build:webpack": "rimraf ./dist/* && webpack --mode production --config webpack.dist.config.js",
     "lint": "tslint src/**/*.ts src/**/*.tsx",
     "lint:fix": "tslint src/**/*.ts src/**/*.tsx --fix"
   },
@@ -17,17 +26,44 @@
     "@types/dagre-d3": "^0.4.37",
     "@types/react": "^16.4.10",
     "@types/react-dom": "^16.0.7",
+    "autoprefixer": "^9.1.1",
+    "aws-sdk": "^2.296.0",
+    "classnames": "^2.2.6",
+    "css-loader": "^1.0.0",
+    "dagre-d3": "^0.6.1",
+    "html-webpack-plugin": "^3.2.0",
+    "postcss-loader": "^3.0.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
+    "rimraf": "^2.6.2",
+    "style-loader": "^0.22.1",
+    "ts-loader": "^4.5.0",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
     "tslint": "^5.11.0",
     "tslint-config-airbnb": "^5.9.2",
-    "typescript": "^3.0.1"
+    "typescript": "^3.0.1",
+    "uglifyjs-webpack-plugin": "^1.3.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
   },
-  "dependencies": {
-    "aws-sdk": "^2.293.0",
-    "classnames": "^2.2.6",
-    "d3": "^5.5.0",
+  "peerDependencies": {
+    "aws-sdk": "^2",
+    "classnames": "^1 || ^2",
+    "d3": "^4 || ^5",
     "dagre-d3": "^0.6.1",
-    "styled-components": "^3.4.2"
-  }
+    "react": "^0.14.0 || ^15.0.0 || ^16",
+    "react-dom": "^0.14.0 || ^15.0.0 || ^16"
+  },
+  "tags": [
+    "aws-xray",
+    "service-graph",
+    "react"
+  ],
+  "keywords": [
+    "aws",
+    "aws-xray",
+    "xray",
+    "service-graph"
+  ]
 }

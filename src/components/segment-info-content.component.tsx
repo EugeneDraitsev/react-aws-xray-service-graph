@@ -1,40 +1,21 @@
 import { Service } from 'aws-sdk/clients/xray'
 import * as React from 'react'
-import styled from 'styled-components'
 
 import { StackedBarChart } from './'
 
 interface IXrayInfo {
   segment: Service,
-  className?: string,
 }
-
-const Wrapper = styled.div`
-  padding: 5px;
-`
-const SegmentName = styled.div`
-  font-size: 32px;
-  word-break: break-all;
-`
-const SegmentType = styled.div`
-  font-size: 22px;
-  font-weight: 300;
-  margin: 10px 0;
-`
-const Info = styled.div`
-  font-size: 16px;
-  margin-bottom: 5px;
-`
 
 export class SegmentInfoContent extends React.Component<IXrayInfo> {
   public render() {
-    const { className, segment: { Name, SummaryStatistics, Type } } = this.props
+    const { segment: { Name, SummaryStatistics, Type } } = this.props
 
     if (!SummaryStatistics) {
       return (
-        <Wrapper className={className}>
-          <SegmentName>{Name}</SegmentName>
-        </Wrapper>
+        <div className="react-aws-xray-service-graph-SegmentInfoContent">
+          <div className="segment-name">{Name}</div>
+        </div>
       )
     }
 
@@ -50,16 +31,20 @@ export class SegmentInfoContent extends React.Component<IXrayInfo> {
     ]
 
     return (
-      <Wrapper className={className}>
-        <SegmentName>{Name}</SegmentName>
-        <SegmentType>{Type}</SegmentType>
-        <Info>Average time: <b>{Math.round(averageTime * 100) / 100}</b> ms</Info>
+      <div className="react-aws-xray-service-graph-SegmentInfoContent">
+        <div className="segment-name">{Name}</div>
+        <div className="segment-type">{Type}</div>
+        <div className="segment-info">
+          Average time: <b>{Math.round(averageTime * 100) / 100}</b> ms
+        </div>
         <StackedBarChart data={statsData} />
-        <Info>Total invocations: <b>{SummaryStatistics!.TotalCount}</b></Info>
+        <div className="segment-info">Total invocations: <b>{SummaryStatistics!.TotalCount}</b></div>
         {statsData.filter(x => x.value > 0).map(x => (
-          <Info key={x.label}>{x.label}: <b>{x.value} ({Math.round(x.value / total * 10000) / 100})%</b></Info>
+          <div className="segment-info"
+               key={x.label}>{x.label}: <b>{x.value} ({Math.round(x.value / total * 10000) / 100})%</b>
+          </div>
         ))}
-      </Wrapper>
+      </div>
     )
   }
 }

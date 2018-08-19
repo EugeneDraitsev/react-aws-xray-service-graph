@@ -1,33 +1,28 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "outDir": "./lib",
-    "rootDir": "./src",
+    "outDir": "lib",
+    "module": "esnext",
     "target": "es5",
     "lib": [
-      "es2018",
       "es6",
+      "es2018",
       "dom"
     ],
-    "moduleResolution": "node",
     "sourceMap": true,
     "allowJs": true,
     "jsx": "react",
-    "noImplicitAny": true,
-    "noUnusedLocals": true,
-    "noImplicitThis": true,
-    "strictNullChecks": true,
-    "noImplicitReturns": true,
-    "preserveConstEnums": true,
-    "suppressImplicitAnyIndexErrors": true,
+    "moduleResolution": "node",
+    "rootDir": "./",
     "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
     "experimentalDecorators": true
   },
   "exclude": [
-    "node_modules",
-    "build"
-  ],
-  "types": [
-    "typePatches"
+    "node_modules"
   ]
 }

@@ -3,7 +3,6 @@ import * as d3 from 'd3'
 import * as dagre from 'dagre-d3'
 import * as React from 'react'
 import * as ReactDOMServer from 'react-dom/server'
-import styled from 'styled-components'
 
 import { SegmentInfoContent } from './'
 
@@ -11,30 +10,6 @@ interface IDirectionalGraph {
   services: ServiceList,
   className?: string,
 }
-
-const Wrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  svg {
-    width: 100%;
-    height: 100%;
-  }
-  .node rect,
-  .node circle,
-  .node ellipse {
-    stroke: #333;
-    fill: #fff;
-    stroke-width: 1px;
-  }
-  .edgePath path {
-    stroke: #333;
-    fill: transparent;
-    stroke-width: 1.5px;
-  }
-`
 
 export class DirectionalGraph extends React.Component<IDirectionalGraph> {
   private node: SVGSVGElement | null
@@ -80,9 +55,9 @@ export class DirectionalGraph extends React.Component<IDirectionalGraph> {
 
   public render() {
     return (
-      <Wrapper>
+      <div className="react-aws-xray-service-graph-DirectionalGraph">
         <svg ref={node => this.node = node} />
-      </Wrapper>
+      </div>
     )
   }
 }
