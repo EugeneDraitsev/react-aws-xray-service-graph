@@ -1,5 +1,5 @@
 {
-  "name": "react-aws-service-graph",
+  "name": "react-aws-xray-service-graph",
   "version": "0.0.2",
   "description": "d3-dagre visualization for aws-xray service graph",
   "license": "MIT",

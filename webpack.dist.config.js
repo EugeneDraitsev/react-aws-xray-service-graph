@@ -1,26 +1,12 @@
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin')
 const path = require('path')
 
-const reactExternal = {
-  root: 'React',
-  commonjs2: 'react',
-  commonjs: 'react',
-  amd: 'react',
-}
-
-const reactDOMExternal = {
-  root: 'ReactDOM',
-  commonjs2: 'react-dom',
-  commonjs: 'react-dom',
-  amd: 'react-dom',
-}
-
 module.exports = {
   entry: './src/index.tsx',
 
   externals: {
-    'react': reactExternal,
-    'react-dom': reactDOMExternal,
+    'react': 'react',
+    'react-dom': 'react-dom',
     'd3-selection': 'd3-selection',
     'd3-shape': 'd3-shape',
     'd3-zoom': 'd3-zoom',
@@ -35,7 +21,7 @@ module.exports = {
     chunkFilename: '[id].chunk.js',
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/',
-    libraryTarget: 'umd',
+    libraryTarget: 'commonjs2',
     library: 'ReactAwsXRayServiceMap',
   },
 
