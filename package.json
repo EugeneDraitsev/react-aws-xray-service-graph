@@ -1,6 +1,6 @@
 {
   "name": "react-aws-service-graph",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "d3-dagre visualization for aws-xray service graph",
   "license": "MIT",
   "authors": [
@@ -28,7 +28,6 @@
     "@types/react-dom": "^16.0.7",
     "autoprefixer": "^9.1.1",
     "aws-sdk": "^2.296.0",
-    "classnames": "^2.2.6",
     "css-loader": "^1.0.0",
     "dagre-d3": "^0.6.1",
     "html-webpack-plugin": "^3.2.0",
@@ -55,6 +54,8 @@
     "react-dom": "^0.14.0 || ^15.0.0 || ^16"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
+    "d3": "^5.5.0",
     "dagre-d3": "^0.6.1"
   },
   "tags": [
