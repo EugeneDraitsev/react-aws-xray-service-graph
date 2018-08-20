@@ -1,6 +1,7 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
-import XRayInfo from '../src/'
+// @ts-ignore
+import XRayInfo from '../dist/main.js'
 import mock from './mock.json'
 
 const App = () => <XRayInfo services={mock.data} />

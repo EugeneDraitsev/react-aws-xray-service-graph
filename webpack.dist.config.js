@@ -1,10 +1,61 @@
-const path = require('path')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin')
+const path = require('path')
 
+const reactExternal = {
+  root: 'React',
+  commonjs2: 'react',
+  commonjs: 'react',
+  amd: 'react',
+}
+const reactDOMExternal = {
+  root: 'ReactDOM',
+  commonjs2: 'react-dom',
+  commonjs: 'react-dom',
+  amd: 'react-dom',
+}
+
+const d3External = {
+  root: 'd3',
+  commonjs2: 'd3',
+  commonjs: 'd3',
+  amd: 'd3',
+}
+
+const classnamesExternal = {
+  root: 'classnames',
+  commonjs2: 'classnames',
+  commonjs: 'classnames',
+  amd: 'classnames',
+}
+
+const awsSdkExternal = {
+  root: 'awsSdk',
+  commonjs2: 'aws-sdk',
+  commonjs: 'aws-sdk',
+  amd: 'aws-sdk',
+}
 
 module.exports = {
-  entry: path.join(__dirname, 'src/index.tsx'),
+  entry: './src/index.tsx',
+
+  externals: {
+    'react': reactExternal,
+    'react-dom': reactDOMExternal,
+    'd3': d3External,
+    'classnames': classnamesExternal,
+    'aws-sdk': awsSdkExternal,
+  },
+
+  output: {
+    filename: '[name].js',
+    chunkFilename: '[id].chunk.js',
+    path: path.resolve(__dirname, 'dist'),
+    publicPath: '/',
+    libraryTarget: 'umd',
+    library: 'ReactAwsXRayServiceMap',
+  },
+
   resolve: {
     extensions: [
       '.js',
@@ -13,6 +64,7 @@ module.exports = {
       '.tsx',
     ],
   },
+
   module: {
     rules: [
       {
@@ -30,6 +82,10 @@ module.exports = {
       {
         test: /\.css$/,
         use: ['style-loader', 'css-loader', 'postcss-loader'],
+        exclude: [
+          /node_modules/,
+          /examples/,
+        ],
       },
     ],
   },
@@ -37,11 +93,8 @@ module.exports = {
     minimizer: [
       new UglifyJsPlugin(),
     ],
-    splitChunks: {
-      chunks: 'all',
-    },
   },
   plugins: [
-    new TsconfigPathsPlugin({ configFile: path.join(__dirname, 'tsconfig.build.json') }),
+    new TsconfigPathsPlugin({ configFile: './tsconfig.build.json' }),
   ],
 }

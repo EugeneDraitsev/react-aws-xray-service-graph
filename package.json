@@ -11,7 +11,7 @@
     "url": "https://github.com/EugeneDraitsev/react-aws-xray-service-graph"
   },
   "bugs": "https://github.com/EugeneDraitsev/react-aws-xray-service-graph/issues",
-  "main": "./dist/mian.js",
+  "main": "./dist/main.js",
   "types": "./index.d.ts",
   "scripts": {
     "start": "webpack-dev-server --mode development --hot --port 3000",
@@ -51,9 +51,11 @@
     "aws-sdk": "^2",
     "classnames": "^1 || ^2",
     "d3": "^4 || ^5",
-    "dagre-d3": "^0.6.1",
     "react": "^0.14.0 || ^15.0.0 || ^16",
     "react-dom": "^0.14.0 || ^15.0.0 || ^16"
+  },
+  "dependencies": {
+    "dagre-d3": "^0.6.1"
   },
   "tags": [
     "aws-xray",
