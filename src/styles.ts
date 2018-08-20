@@ -1,3 +1,7 @@
+import { injectGlobal } from 'styled-components'
+
+// tslint:disable-next-line
+injectGlobal`
 .react-aws-xray-service-graph-Wrapper {
   display: flex;
   flex-direction: column;
@@ -76,3 +80,4 @@
   font-size: 16px;
   margin-bottom: 5px;
 }
+`

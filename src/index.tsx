@@ -2,7 +2,7 @@ import { ServiceList } from 'aws-sdk/clients/xray'
 import * as React from 'react'
 import cn from 'classnames'
 import { DirectionalGraph } from './components'
-import './styles/index.css'
+import './styles'
 
 interface IXrayInfo {
   services: ServiceList,

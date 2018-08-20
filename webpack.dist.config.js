@@ -14,6 +14,7 @@ module.exports = {
     'classnames': 'classnames',
     'aws-sdk': 'aws-sdk',
     'react-dom-server': 'react-dom-server',
+    'styled-components': 'styled-components',
   },
 
   output: {
@@ -43,14 +44,6 @@ module.exports = {
             loader: 'ts-loader',
           },
         ],
-        exclude: [
-          /node_modules/,
-          /examples/,
-        ],
-      },
-      {
-        test: /\.css$/,
-        use: ['style-loader', 'css-loader', 'postcss-loader'],
         exclude: [
           /node_modules/,
           /examples/,
