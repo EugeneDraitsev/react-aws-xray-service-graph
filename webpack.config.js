@@ -8,6 +8,9 @@ const htmlPlugin = new HtmlWebPackPlugin({
 
 module.exports = {
   entry: path.join(__dirname, 'examples/index.tsx'),
+  output: {
+    path: path.join(__dirname, 'build'),
+  },
   resolve: {
     extensions: [
       '.js',

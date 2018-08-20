@@ -1,6 +1,6 @@
 {
   "name": "react-aws-xray-service-graph",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "d3-dagre visualization for aws-xray service graph",
   "license": "MIT",
   "authors": [
@@ -16,6 +16,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --hot --port 3000",
     "build": "rimraf ./dist/* && webpack --mode production --config webpack.dist.config.js",
+    "build:example": "rimraf ./build/* && webpack --mode production",
     "lint": "tslint src/**/*.ts src/**/*.tsx",
     "lint:fix": "tslint src/**/*.ts src/**/*.tsx --fix"
   },
@@ -35,6 +36,7 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "rimraf": "^2.6.2",
+    "surge": "^0.20.1",
     "ts-loader": "^4.5.0",
     "tsconfig-paths-webpack-plugin": "^3.2.0",
     "tslint": "^5.11.0",
