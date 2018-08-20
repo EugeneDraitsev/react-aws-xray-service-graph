@@ -39,19 +39,19 @@ const getServiceMapData = async () => {
 Then you can pass `services` props to `XRayInfo` component:
 
 ```jsx
-
 import XRayInfo from 'react-aws-xray-service-graph'
 
 // services from method above
 const App = () => <XRayInfo services={services} />
-
-
 ```
 
 ## Examples
 
 You can find example and mock data for graph in `/exapmles` folder. To run example just clone repository and run
-`yarn start`
+```bash
+yarn build
+yarn start
+```
 
 ## TODO
 
