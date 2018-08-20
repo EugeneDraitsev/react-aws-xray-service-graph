@@ -1,5 +1,7 @@
 import { ServiceList } from 'aws-sdk/clients/xray'
-import * as d3 from 'd3'
+import { select, event } from 'd3-selection'
+import { curveBasis } from 'd3-shape'
+import { zoom as d3zoom, zoomIdentity } from 'd3-zoom'
 import * as dagre from 'dagre-d3'
 import * as React from 'react'
 import * as ReactDOMServer from 'react-dom/server'
@@ -16,10 +18,10 @@ export class DirectionalGraph extends React.Component<IDirectionalGraph> {
 
   public componentDidMount() {
     const { services } = this.props
-    const svg = d3.select(this.node as d3.BaseType)
+    const svg = select(this.node as any)
     const inner = svg.append('g')
 
-    const zoom = (d3 as any).zoom().on('zoom', () => inner.attr('transform', (d3.event as any).transform))
+    const zoom = d3zoom().on('zoom', () => inner.attr('transform', event.transform))
     svg.call(zoom)
 
     const g = new dagre.graphlib.Graph().setGraph({})
@@ -36,7 +38,7 @@ export class DirectionalGraph extends React.Component<IDirectionalGraph> {
 
     edges.forEach((x: any) => g.setEdge(x.source, x.target, {
       arrowhead: 'vee',
-      curve: (d3 as any).curveBasis,
+      curve: curveBasis,
       // label: 'test',
     }))
 
@@ -46,7 +48,6 @@ export class DirectionalGraph extends React.Component<IDirectionalGraph> {
     render(inner as any, g)
 
     const initialScale = 0.75
-    const { zoomIdentity } = d3 as any
     const marginWidth = ((svg.node() as any).getBoundingClientRect().width - g.graph().width * initialScale) / 2
 
     svg.call(zoom.transform, zoomIdentity.translate(marginWidth, 20).scale(initialScale))
