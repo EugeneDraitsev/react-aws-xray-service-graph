@@ -14,7 +14,6 @@ module.exports = {
     'classnames': 'classnames',
     'aws-sdk': 'aws-sdk',
     'react-dom-server': 'react-dom-server',
-    'styled-components': 'styled-components',
   },
 
   output: {

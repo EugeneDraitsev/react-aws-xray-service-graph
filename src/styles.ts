@@ -1,7 +1,4 @@
-import { injectGlobal } from 'styled-components'
-
-// tslint:disable-next-line
-injectGlobal`
+export default `
 .react-aws-xray-service-graph-Wrapper {
   display: flex;
   flex-direction: column;

@@ -2,7 +2,7 @@ import { ServiceList } from 'aws-sdk/clients/xray'
 import * as React from 'react'
 import cn from 'classnames'
 import { DirectionalGraph } from './components'
-import './styles'
+import styles from './styles'
 
 interface IXrayInfo {
   services: ServiceList,
@@ -15,6 +15,9 @@ export default class XRayInfo extends React.Component<IXrayInfo> {
 
     return (
       <div className={cn('react-aws-xray-service-graph-Wrapper', className)}>
+        <style>
+          {styles}
+        </style>
         <DirectionalGraph services={services} />
       </div>
     )
